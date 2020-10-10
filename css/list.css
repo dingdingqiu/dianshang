@@ -1,0 +1,165 @@
+.nav_item li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.nav_item li a {
+    display: block;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav_list li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.nav_list li a {
+    display: block;
+    font-size: 14px;
+}
+
+.nav_list_i {
+    font-family: "icomoon";
+}
+
+.bg {
+    width: 1200px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+
+/* mian start  */
+
+.main_ul {
+    width: 1215px;
+}
+
+.mian li {
+    float: left;
+    width: 288px;
+    height: 458px;
+    margin-right: 12px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+}
+
+.mian li:hover {
+    border-color: #b1191a;
+}
+
+.mian h3 {
+    margin: 15px 10px 10px;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.menoy {
+    padding-left: 10px;
+}
+
+.menoy em {
+    font-size: 22px;
+    color: #e12228;
+    font-weight: 700;
+}
+
+.menoy del {
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.slip {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    margin: 0 5px;
+    border: 1px solid #e12228;
+    border-radius: 5px;
+}
+
+.bar_in {
+    width: 87%;
+    height: 10px;
+    background-color: #f24349;
+}
+
+.liji {
+    display: block;
+    height: 45px;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 45px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* page start  */
+
+.page {
+    margin: 40px 0;
+    /*里面的文字内容  行内块 行内元素 都可以水平居中对齐*/
+    text-align: center;
+}
+
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+.page_num .pn_prev,
+.page_num .pn_next {
+    width: 83px;
+}
+
+.page_num .dotted,
+.page_num .current {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.page_skip input {
+    width: 46px;
+    height: 36px;
+    border: 1px solid #ccc;
+    text-align: center;
+    /*过渡写在本身上 谁做动画，给谁加*/
+    transition: all 0.3s;
+}
+
+
+/*表单获得焦点后 */
+
+.page_skip input:focus {
+    width: 88px;
+    border: 1px solid skyblue;
+}
+
+.page_skip button {
+    width: 54px;
+    height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}

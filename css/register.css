@@ -1,0 +1,139 @@
+.header {
+    height: 70px;
+    border-bottom: 2px solid #b1191a;
+    padding-top: 10px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.registerarea {
+    height: 500px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+}
+
+.registerarea h3 em {
+    float: right;
+    font-size: 12px;
+}
+
+.registerarea h3 a {
+    color: #b1191a;
+}
+
+.register_form {
+    width: 600px;
+    height: 356px;
+    margin: 40px auto 0;
+}
+
+.register_form li {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.register_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    text-align: right;
+}
+
+.inp {
+    display: inline-block;
+    width: 240px;
+    height: 34px;
+}
+
+.error {
+    color: #df3033;
+    margin-left: 10px;
+}
+
+.success {
+    color: #40b83f;
+    margin-left: 10px;
+}
+
+.eorror_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+}
+
+.success_icon {
+    background: url(../img//success.png);
+}
+
+.eye,
+.sureeye {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 36px;
+    height: 36px;
+    /* background-color: pink; */
+    /* background: url(../img/close.png) no-repeat; */
+    background-size: 36px;
+}
+
+.safe {
+    padding-left: 120px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 20px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    margin-left: 100px;
+}
+
+.agree_reg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.over {
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 120px;
+    background-color: #c81623;
+    color: #fff;
+    border: 0;
+}

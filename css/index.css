@@ -1,0 +1,323 @@
+/* main start  */
+
+.main {
+    width: 978px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 456px;
+    overflow: hidden;
+}
+
+.focus li {
+    float: left;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.arrow_fl,
+.arrow_fr {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    width: 24px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "icomoon";
+    color: #fff;
+    line-height: 36px;
+    font-size: 18px;
+    z-index: 2;
+    text-align: center;
+}
+
+.arrow_fl {
+    left: 0;
+}
+
+.arrow_fr {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.circle .current {
+    background-color: #fff;
+}
+
+.news {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news_item {
+    height: 164px;
+    border: 1px solid #ccc;
+}
+
+.news_list {
+    height: 210px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.news_bargin {
+    margin-top: 5px;
+}
+
+.news_item_hd {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.news_item_hd h5 {
+    float: left;
+}
+
+.news_item_hd i {
+    font-family: "icomoon";
+}
+
+.news_item_hd span {
+    float: right;
+}
+
+.news_item_bd {
+    margin: 10px 0 0 15px;
+}
+
+.news_item_bd li {
+    height: 25px;
+}
+
+.news_list {
+    overflow: hidden;
+}
+
+.news_list ul {
+    width: 253px;
+}
+
+.news_list li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.news_list p {
+    display: block;
+    text-align: center;
+}
+
+.news_list_item {
+    display: block;
+    width: 20px;
+    height: 25px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.huafei {
+    background-position: -17px -14px;
+}
+
+.jipiao {
+    background-position: -90px -14px;
+}
+
+
+/* recomend start  */
+
+.recomend {
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recomend_fl {
+    float: left;
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recomend_fl img {
+    display: block;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.recomend_fl h3 {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.recomend_fr {
+    float: left;
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recomend_fr li {
+    float: left;
+    width: 249px;
+    height: 143px;
+    border-right: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.recomend_fr .last {
+    border-right: none;
+}
+
+
+/* floor start  */
+
+.box_hd {
+    height: 27px;
+    margin-top: 30px;
+    line-height: 27px;
+    padding-right: 5px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.box_hd ul {
+    float: right;
+}
+
+.box_hd li {
+    float: left;
+}
+
+.box_hd_shu {
+    width: 1px;
+    height: 12px;
+    margin: 8px 12px 0;
+    background-color: #ccc;
+}
+
+.box_bd {
+    height: 360px;
+}
+
+.w210 {
+    float: left;
+    width: 210px;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+.w210_list {
+    height: 98px;
+}
+
+.w210_list li {
+    float: left;
+    width: 86px;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.w329 {
+    float: left;
+    width: 329px;
+    height: 100%;
+}
+
+.w220 {
+    float: left;
+    width: 220px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+
+.w220_up,
+.w220_down,
+.w219_down,
+.w219_up {
+    border-bottom: 1px solid #ccc;
+}
+
+.w219 {
+    float: left;
+    width: 219px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+
+.img {
+    transition: all 0.5s;
+}
+
+
+/* 固定导航开始  */
+
+.fixedtool {
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -685px;
+    width: 70px;
+}
+
+.fixedtool li {
+    height: 32px;
+    width: 100%;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.dingbu {
+    display: none;
+}
+
+.fixe_current {
+    background-color: #c81623;
+    color: #fff;
+}
